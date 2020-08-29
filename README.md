@@ -29,7 +29,7 @@ You **can** swap the ubuntu with Oracle Linux or even better, an Autonomous Orac
 2. Run the following command to set the required environment variable: 
 
 ```
-export TF_VAR_local_ip_address=\`curl 'https://api.ipify.org'`
+export TF_VAR_local_ip_address=`curl 'https://api.ipify.org'`
 ```
 3. Run `terraform plan` to make check the resources which will be created/destroyed/changed
 4. Run `terraform apply` to deploy
